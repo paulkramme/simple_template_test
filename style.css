@@ -1,0 +1,50 @@
+html {
+     font: 22px/1.6 "Roboto", "Helvetica Neue", Helvetica, arial, sans-serif;
+}
+
+body {
+     background: #282c34
+
+}
+h1 {
+     margin-bottom: .5rem;
+     font-weight: 300;
+     line-height: 1.25;
+     color: white;
+}
+h1 {
+     font-size: 2rem;
+}
+p1 {
+     margin-top: 0;
+     margin-bottom: 1rem;
+     color: #cccccc
+}
+.home {
+  position: relative;
+  min-height: 450px;
+  color: #abb2bf;
+}
+.home-wrapper {
+  position: relative;
+  width: 100%;
+  margin-top: 3rem;
+  padding-left: .8rem;
+  padding-right: .8rem;
+}
+@media (min-width: 40rem) {
+  .home {
+    height: 100vh;
+    min-height: 700px;
+  }
+  .home-wrapper {
+    top: 50%;
+    width: 33rem;
+    margin-top: 0;
+    padding-left: 3rem;
+    padding-right: 0;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+}
